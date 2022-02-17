@@ -11,5 +11,6 @@ public class TestStringJoin {
         final String join = String.join(",", list);
         System.out.println(join);
         System.out.println(join);
+        System.out.println(join);
     }
 }
