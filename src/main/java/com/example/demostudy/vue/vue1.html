@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button @click="dj(5,$event)">点击</button>
+</div>
+<script>
+    var vm = new Vue({
+        el: '#app',
+        methods: {
+            dj: function (a, b) {
+                alert(b.target.innerText);
+            }
+        }
+    })
+</script>
+</body>
+</html>
