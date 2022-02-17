@@ -10,5 +10,6 @@ public class TestStringJoin {
         List list1 = Arrays.asList("1", "2", "3");
         final String join = String.join(",", list);
         System.out.println(join);
+        System.out.println(join);
     }
 }
