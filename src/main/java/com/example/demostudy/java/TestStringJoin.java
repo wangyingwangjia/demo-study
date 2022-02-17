@@ -13,5 +13,6 @@ public class TestStringJoin {
         System.out.println(join);
         System.out.println(join);
         System.out.println(join);
+        System.out.println(join);
     }
 }
